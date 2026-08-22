@@ -1,0 +1,25 @@
+package com.example.ui.navigation
+
+sealed class Screen(val route: String, val title: String) {
+    object Splash : Screen("splash", "Splash")
+    object Onboarding : Screen("onboarding", "Onboarding")
+    object Auth : Screen("auth", "Sign In")
+    object Home : Screen("home", "Explore")
+    object ExploreIndia : Screen("explore_india", "Explore India")
+    object StateDetails : Screen("state_details", "State Details")
+    object DestinationDetails : Screen("dest_details", "Destination")
+    object TripPlanner : Screen("trip_planner", "Plan Trip")
+    object Itinerary : Screen("itinerary", "My Itinerary")
+    object SmartTripOptimizer : Screen("smart_optimizer", "Smart Optimizer")
+    object PriceComparison : Screen("price_comparison", "Compare Prices")
+    object BudgetPlanner : Screen("budget_planner", "Budget Planner")
+    object TravelAssistant : Screen("travel_assistant", "Travel Assistant")
+    object NearbyPlaces : Screen("nearby_places", "Nearby Places")
+    object MapRoute : Screen("map_route", "Route Map")
+    object Weather : Screen("weather", "Weather")
+    object SavedTrips : Screen("saved_trips", "Saved Trips")
+    object SavedPlaces : Screen("saved_places", "Saved Places")
+    object Profile : Screen("profile", "Profile")
+    object Settings : Screen("settings", "Settings")
+    object AdminKnowledge : Screen("admin_knowledge", "Admin Knowledge")
+}

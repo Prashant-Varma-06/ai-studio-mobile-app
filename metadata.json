@@ -1,0 +1,6 @@
+{
+  "name": "Indian Travel Planner",
+  "description": "Comprehensive India-wide travel planning and discovery app with personalized itineraries, smart price comparison, budget & route optimization, and intelligent online/offline capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
